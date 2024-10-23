@@ -54,8 +54,10 @@ vector<int> YearWithSamePerson(vector<danso> a, int n)
 
 int main()
 {
-    vector<danso> a(51);
-    for(int i = 0; i <= 50; i++){
+    cout << "Nhap so luong nam ma ban muon : ";
+    int n; cin >> n;
+    vector<danso> a(n);
+    for(int i = 0; i < n; i++){
         cin >> a[i].year >> a[i].NumberOfPerson;
     }
     
